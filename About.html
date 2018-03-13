@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Контакты</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+<!--           Banner-->
+        <header>
+            <img id="banner" src="img/2.jpg" alt="banner">
+            <div class="container">
+                <nav>
+                   <ul class="hr">
+                       <li class="m"><a href="index.html">Главная</a></li>
+                       <li class="m"><a href="catalog.html">Каталог</a></li>
+                       <li class="m"><a href="About.html">Контакты</a></li>
+                   </ul>
+                </nav>
+            </div>
+        </header>
+<!--        Main block-->
+        <div class="container" id="main">
+            <main class="main_about">
+                <section>
+                    <h1>Напишите нам</h1>
+                    <input type="text" placeholder="Имя" class="cont">
+                    <br>
+                    <input type="text" placeholder="Email" class="cont" id="mail">
+                    <br>
+                    <input type="text" placeholder="Тема" class="cont">
+                    <br>
+                    <input type="number" placeholder="Телефон" class="cont">
+                    <br>
+                    <textarea name="" id="" cols="80" rows="10" placeholder="Сообщение" class="txt"></textarea>
+                    <br>
+                    <input type="submit" class="btn">
+                </section>
+                <section>
+                    <h1>Адрес</h1>
+                    <ol>
+                        <li>Контактный номер телефона: +7-(999)-999-99-99</li>
+                        <li>Адрес: <span class="ymaps-geolink">Сургут, ул. Привокзальная, 10</span></li>
+                        <li>Email: Support@TechnoHouseMail.ru</li>
+                    </ol>
+                    <iframe src="https://yandex.ru/map-widget/v1/-/CBef5EC9lB" width="560" height="400" frameborder="0"></iframe>
+                </section>
+            </main>
+        </div>
+<!--        footer-->
+        <div class="container" id="footer">
+            <footer>
+                <nav>
+                    <ul class="hr">
+                       <li class="m"><a href="index.html">Главная</a></li>
+                       <li class="m"><a href="catalog.html">Каталог</a></li>
+                       <li class="m"><a href="About.html">Контакты</a></li>
+                    </ul>
+                </nav>
+                <p>© Copyright 2018 Все права защищены</p>
+            </footer>
+        </div>
+        <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&load=Geolink"
+ type="text/javascript"></script>
+    </body>
+</html>
